@@ -1,15 +1,15 @@
-## power_rankings
+## About
 Python package used to create stats including power rankings for the Zogby group.
 This package provides cli tools to create and customize statistics from
 Zogby group round data.
 
-### Install
+## Install
 
 **`pip install 'power_rankings@git+https://github.com/cswelton/power_rankings@master'`**
 
-When installed, these two cli tools are available:
+When installed, you will be able to view the help menus with:
 
-#### sync-golfgenius
+#### sync-golfgenius --help
 
 ```
 usage: sync-golfgenius [-h] [--results-dir <PATH>] [--disable-screenshots] [--screenshots-dir <PATH>] [--filter <REGEX>] [--show-browser] [--quiet] [--logfile <PATH>] [--debug] <GGID-CODE>
@@ -31,7 +31,7 @@ optional arguments:
   --debug               Turn on debug logging. (default: False)
 ```
 
-#### power-rankings
+#### power-rankings --help
 
 ```
 usage: power-rankings [-h] [--results-directory <PATH>] [--weeks <integer>] [--min-rounds <integer>] [--weighted-rounds <integer>] [--outlier-distance <float>] [--weight-birdies <float>] [--weight-scoring <float>]
