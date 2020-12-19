@@ -4,6 +4,7 @@ This package provides cli tools to create and customize statistics from
 Zogby group round data.
 
 ## Install
+Run this command to install the package with `pip`:
 
 **`pip install 'power_rankings@git+https://github.com/cswelton/power_rankings@master'`**
 
