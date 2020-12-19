@@ -12,12 +12,12 @@ setuptools.setup(
         'numpy>=1.19.4',
         'terminaltables==3.1.0',
         'XlsxWriter==1.3.7',
-        'golfgenius>=1.12.0'
+        'golfgenius @ git+https://github.com/cswelton/golfgenius@r1.0#egg=golfgenius'
     ],
     entry_points={
         "console_scripts": [
             'power-rankings=power_rankings.generate:main',
-            'refresh-bbc-data=power_rankings.refresh_bbc_data:main'
+            'sync-golfgenius=power_rankings.sync_golfgenius:main'
         ],
     },
     long_description=long_description,
