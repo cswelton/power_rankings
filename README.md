@@ -7,7 +7,7 @@ Zogby group round data.
 
 **`pip install 'power_rankings@git+https://github.com/cswelton/power_rankings@master'`**
 
-When installed, you will be able to view the help menus with:
+When installed, you will be able to view the help menus for these two programs with:
 
 #### sync-golfgenius --help
 
